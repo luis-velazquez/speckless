@@ -13,7 +13,7 @@ export default function Contact({}: Props) {
       <div className="flex flex-col relative md:text-left md:flex-row max-w-7xl px-4 sm:px-10 justify-evenly mx-auto items-center bg-gradient-to-tr from-[#F5F7FA] to-[#f4f4f4] p-10 rounded-lg">
         <div className="p-6 dark:text-gray-800">
           <h4 className=" text-4xl sm:text-4xl md:text-5xl font-extrabold bg-clip-text text-center ">
-            Let's work together to come up with a quote that works for you!
+            Lets work together to come up with a quote that works for you!
           </h4>
           <div className="my-5 grid grid-cols-1 ">
             <p className="text-center">

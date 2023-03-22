@@ -9,7 +9,7 @@ export default function About({}: Props) {
         <div className="mx-auto max-w-4xl -my-10 6">
           <div className="text-center pb-20">
             <h1 className="text-5xl font-bold tracking-tight text-gray-900 sm:text-6xl dark:text-gray-100">
-              <span className="font-serif font-extrabold text-8xl">"</span>
+              {/* <span className="font-serif font-extrabold text-8xl">"&quot;</span> */}
               <br />
               Welcome to Speckless
             </h1>
