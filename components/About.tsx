@@ -18,14 +18,21 @@ export default function About({}: Props) {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Accusantium quo sit repellendus earum itaque dolorem libero
                 expedita error perspiciatis repellat nesciunt, quis illo eum cum
-                illum voluptate ipsum ducimus impedit.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Accusantium quo sit repellendus earum itaque dolorem libero
-                expedita error perspiciatis repellat nesciunt, quis illo eum cum
-                illum voluptate ipsum ducimus impedit! <span className="underline text-blue-800">get a free quote</span>
+                illum voluptate ipsum ducimus impedit. Lorem ipsum dolor sit
+                amet consectetur adipisicing elit. Accusantium quo sit
+                repellendus earum itaque dolorem libero expedita error
+                perspiciatis repellat nesciunt, quis illo eum cum illum
+                voluptate ipsum ducimus impedit!{" "}
+                <a href="/contact-us">
+                  <span className="underline text-blue-800">
+                    get a free quote
+                  </span>
+                </a>
               </p>
-              <p className="text-gray-100 font-semibold">The Best in the business!</p>
-              <hr className="w-48 h-1 mx-auto my-6 border-0 rounded md:my-10 bg-gray-300"/>
+              <p className="text-gray-100 font-semibold">
+                The Best in the business!
+              </p>
+              <hr className="w-48 h-1 mx-auto my-6 border-0 rounded md:my-10 bg-gray-300" />
             </div>
           </div>
         </div>

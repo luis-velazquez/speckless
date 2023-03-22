@@ -3,6 +3,7 @@ import {
   Bars3Icon,
   ChartPieIcon,
   XMarkIcon,
+  PhoneIcon
 } from "@heroicons/react/24/outline";
 import { Popover, Transition, Dialog, } from "@headlessui/react";
 import Image from "next/image";
@@ -93,7 +94,6 @@ export default function Navbar({}: Props) {
                 </Popover.Panel>
               </Transition>
             </Popover>
-                <div></div>
             <Link
               href="testimonials"
               className="text-lg font-semibold leading-6 text-white"
@@ -107,7 +107,7 @@ export default function Navbar({}: Props) {
               Contact Us
             </Link>
             <Link
-              href="#"
+              href="#tel:+4695605292"
               className="text-lg font-semibold leading-6 text-white"
             >
               Call Now
@@ -158,12 +158,12 @@ export default function Navbar({}: Props) {
                     Contact Us
                   </Link>
                 </div>
-                <div className="py-6">
+                <div className="flex py-6">
                   <Link
-                    href="#"
+                    href="tel:+4695605292"
                     className="-mx-3 block rounded-lg py-2.5 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                   >
-                    Call Now
+                   <PhoneIcon width={30}/> Call Now
                   </Link>
                 </div>
               </div>

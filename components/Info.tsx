@@ -34,7 +34,11 @@ export default function Info({}: Props) {
               We are fully insured so you can rest easy knowing that your
               property is in safe hands.
             </p>
-            <button className=" bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 my-4 rounded">Learn More</button>
+            <a href="/contact-us">
+              <button className=" bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 my-4 rounded">
+                Learn More
+              </button>
+            </a>
           </div>
         </div>
       </div>
