@@ -22,15 +22,15 @@ export default function Contact({}: Props) {
             </p>
             <div className="text-center grid sm:grid-cols-3 my-6">
               <div className="flex flex-col items-center">
-                <PhoneIcon width={50} className="animate-pulse" stroke="blue"/>
+                <PhoneIcon width={50} className="animate-pulse" stroke="black"/>
                 <p className="text-xl font-semibold">123-456-7890</p>
               </div>
               <div className="flex flex-col items-center">
-                <MapPinIcon width={50} className="animate-pulse" stroke="blue"/>
+                <MapPinIcon width={50} className="animate-pulse" stroke="black"/>
                 <p className="text-xl font-semibold">Dallas TX 75044</p>
               </div>
               <div className="flex flex-col items-center">
-                <EnvelopeIcon width={50} className="animate-pulse" stroke="blue"/>
+                <EnvelopeIcon width={50} className="animate-pulse" stroke="black"/>
                 <p className="text-xl font-semibold">test@tester.com</p>
               </div>
             </div>
