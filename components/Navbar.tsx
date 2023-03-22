@@ -107,7 +107,7 @@ export default function Navbar({}: Props) {
               Contact Us
             </Link>
             <Link
-              href="#tel:+4695605292"
+              href="#tel:4695605292"
               className="text-lg font-semibold leading-6 text-white"
             >
               Call Now
@@ -161,7 +161,7 @@ export default function Navbar({}: Props) {
                 </div>
                 <div className="flex py-6">
                   <Link
-                    href="tel:+4695605292"
+                    href="tel:4695605292"
                     className="-mx-3 block rounded-lg py-2.5 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                   >
                    <PhoneIcon width={30}/> Call Now!
