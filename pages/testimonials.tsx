@@ -31,7 +31,7 @@ export default function testimonials({}: Props) {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Ratione, nulla perspiciatis excepturi repellat vel rerum dolorum
                 laboriosam officia saepe officiis, aspernatur deserunt dicta.
-                Est praesentium quia ex, perspiciatis autem magni.
+                Est praesentium quia ex, perspiciatis autem magni...
               </p>
             </div>
             {/* ----------------------------Start--------------------------- */}
