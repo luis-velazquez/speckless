@@ -111,7 +111,7 @@ export default function Navbar({}: Props) {
               className="text-lg font-semibold leading-6 text-white"
             >
               Call Now
-              
+
             </Link>
           </Popover.Group>
         </nav>
@@ -164,7 +164,7 @@ export default function Navbar({}: Props) {
                     href="tel:+4695605292"
                     className="-mx-3 block rounded-lg py-2.5 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                   >
-                   <PhoneIcon width={30}/> Call Now
+                   <PhoneIcon width={30}/> Call Now!
                   </Link>
                 </div>
               </div>

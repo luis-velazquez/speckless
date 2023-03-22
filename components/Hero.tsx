@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React, { useState } from "react";
 
 type Props = {};
@@ -18,18 +19,18 @@ export default function Hero({}: Props) {
                 most stunning house in the neighborhood.
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
-                <a
+                <Link
                   href="tel:+4695605292"
                   className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 animate-bounce"
                 >
                   Call now!
-                </a>
-                <a
+                </Link>
+                <Link
                   href="/contact-us"
                   className="text-sm font-semibold leading-6 text-gray-200"
                 >
                   Request quote <span aria-hidden="true">→</span>
-                </a>
+                </Link>
               </div>
             </div>
           </div>

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 type Props = {};
@@ -23,11 +24,11 @@ export default function About({}: Props) {
                 repellendus earum itaque dolorem libero expedita error
                 perspiciatis repellat nesciunt, quis illo eum cum illum
                 voluptate ipsum ducimus impedit!{" "}
-                <a href="/contact-us">
+                <Link href="/contact-us">
                   <span className="underline text-blue-800">
                     get a free quote
                   </span>
-                </a>
+                </Link>
               </p>
               <p className="text-gray-100 font-semibold">
                 The Best in the business!
