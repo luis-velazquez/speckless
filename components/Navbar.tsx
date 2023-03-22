@@ -111,6 +111,7 @@ export default function Navbar({}: Props) {
               className="text-lg font-semibold leading-6 text-white"
             >
               Call Now
+              
             </Link>
           </Popover.Group>
         </nav>
