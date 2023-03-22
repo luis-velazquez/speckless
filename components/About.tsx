@@ -15,7 +15,7 @@ export default function About({}: Props) {
               Welcome to Speckless
             </h1>
             <div className="py-10">
-              <p className="text-gray-900 dark:text-gray-300 text-md">
+              <p className="text-gray-300 text-md">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Accusantium quo sit repellendus earum itaque dolorem libero
                 expedita error perspiciatis repellat nesciunt, quis illo eum cum
