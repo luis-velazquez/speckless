@@ -5,7 +5,7 @@ type Props = {};
 
 export default function Info({}: Props) {
   return (
-    <div className="bg-gray-900 px-4 pb-20">
+    <div className="bg-gray-900 px-4 pb-20 mt-4">
       <div className="flex flex-col relative md:text-left md:flex-row max-w-7xl px-4 sm:px-10 justify-evenly mx-auto items-center bg-gradient-to-tr from-[#F5F7FA] to-[#f4f4f4] p-10 rounded-xl">
         <Image
           className="w-[100rem] p-10 founded"

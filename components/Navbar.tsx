@@ -33,7 +33,7 @@ export default function Navbar({}: Props) {
             <Link href="/" className="-m-1.5 p-1.5">
               <span className="sr-only">Speckless</span>
               <Image
-                  className=" w-10/12"
+                  className=" w-8/12"
                   src="/images/transparent-white.png"
                   width={200}
                   height={200}
@@ -48,7 +48,7 @@ export default function Navbar({}: Props) {
               onClick={() => setMobileMenuOpen(true)}
             >
               <span className="sr-only">Open main menu</span>
-              <Bars3Icon className="h-6 w-6" aria-hidden="true" color="white"/>
+              <Bars3Icon className="h-10 w-10" aria-hidden="true" color="white"/>
             </button>
           </div>
           <Popover.Group className="hidden lg:flex lg:gap-x-12">

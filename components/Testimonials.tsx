@@ -8,7 +8,7 @@ type Props = {};
 export default function Testimonials({}: Props) {
   return (
     <div className="bg-gray-900">
-      <div className="bg-[url('../public/images/water-drops.png')] bg-no-repeat bg-center bg-cover bg-fixed ">
+      <div className="bg-[url('../public/images/water-drops.png')] bg-no-repeat bg-center bg-cover sm:sbg-fixed ">
         <div className="bg-[url('../public/images/border-lines.png')]  bg-top bg-contain sm:bg-cover bg-no-repeat">
           <div className="bg-[url('../public/images/border-lines-bottom.png')]  bg-bottom bg-contain sm:bg-cover bg-no-repeat">
             {/*  */}
